@@ -1,41 +1,73 @@
-.flex
+.flex1
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    padding: 0 40%;
+    align-content: space-evenly;
+    margin: 0 10px;
 }
 
 .box1
 {
-    border: 2px solid red;
     background-color: red;
     width: 100px;
     height: 100px;
-    display: flex;
+    margin: 0 10px;
 }
 
 .box2
 {
-    border: 2px solid blue;
     background-color: blue; 
     width: 100px;
     height: 100px;
+    margin: 0 10px;
+
 }
 
 .box3
 {
-    border: 2px solid yellow;
     background-color: yellow; 
     width: 100px;
     height: 100px;
+    margin: 0 10px;
+
 }
 
 .box4
 {
-    border: 2px solid yellowgreen;
     background-color: yellowgreen; 
     width: 100px;
     height: 100px;
+    margin: 0 10px;
 }
 
+.flex2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 10px 0;
+}
+
+.box-1
+{
+    border: 2px solid red;
+    width: 100px;
+    height: 100px;
+    margin: 10px 0;
+}
+
+.box-2
+{
+    border: 2px solid blue;
+    width: 100px;
+    height: 100px;
+    margin: 10px 0;
+}
+
+.box-3
+{
+    border: 2px solid yellow;
+    width: 100px;
+    height: 100px;
+    margin: 10px 0;
+}
