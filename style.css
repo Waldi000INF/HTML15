@@ -1,0 +1,41 @@
+.flex
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0 40%;
+}
+
+.box1
+{
+    border: 2px solid red;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    display: flex;
+}
+
+.box2
+{
+    border: 2px solid blue;
+    background-color: blue; 
+    width: 100px;
+    height: 100px;
+}
+
+.box3
+{
+    border: 2px solid yellow;
+    background-color: yellow; 
+    width: 100px;
+    height: 100px;
+}
+
+.box4
+{
+    border: 2px solid yellowgreen;
+    background-color: yellowgreen; 
+    width: 100px;
+    height: 100px;
+}
+
