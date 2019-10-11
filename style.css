@@ -1,9 +1,15 @@
 .flex1
 {
+    border: 2px solid white;
+    width: 500px;
     display: flex;
     flex-direction: row;
-    align-content: space-evenly;
-    margin: 0 10px;
+    justify-content: flex-start;
+}
+
+.flex1 div
+{
+    margin: 5px;
 }
 
 .box1
@@ -11,7 +17,6 @@
     background-color: red;
     width: 100px;
     height: 100px;
-    margin: 0 10px;
 }
 
 .box2
@@ -19,7 +24,6 @@
     background-color: blue; 
     width: 100px;
     height: 100px;
-    margin: 0 10px;
 
 }
 
@@ -28,7 +32,6 @@
     background-color: yellow; 
     width: 100px;
     height: 100px;
-    margin: 0 10px;
 
 }
 
@@ -37,15 +40,17 @@
     background-color: yellowgreen; 
     width: 100px;
     height: 100px;
-    margin: 0 10px;
 }
 
 .flex2
 {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    margin: 10px 0;
+}
+
+.flex2 div
+{
+    margin: 5px;
 }
 
 .box-1
@@ -53,7 +58,6 @@
     border: 2px solid red;
     width: 100px;
     height: 100px;
-    margin: 10px 0;
 }
 
 .box-2
@@ -61,7 +65,6 @@
     border: 2px solid blue;
     width: 100px;
     height: 100px;
-    margin: 10px 0;
 }
 
 .box-3
@@ -69,5 +72,46 @@
     border: 2px solid yellow;
     width: 100px;
     height: 100px;
-    margin: 10px 0;
+}
+
+.Contact
+{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    justify-content: flex-start;
+    padding: 5px;
+}
+
+form input
+{
+    border: 2px solid grey;
+    padding: 5px;
+    margin: 5px;
+}
+
+form textarea
+{
+    border: 2px solid grey;
+    height: 10vh;
+    padding: 5px;
+    margin: 5px;
+}
+
+ .btn
+ {
+ background-color: hotpink;
+ color: white;
+ padding: 5px;
+ height: 5px;
+ width: 10px;
+ text-transform: uppercase;
+ margin: 10px;
 }
